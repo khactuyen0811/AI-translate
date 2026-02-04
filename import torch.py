@@ -73,7 +73,7 @@ def main():
                     if para.text.strip(): all_items.append(para)
 
     total = len(all_items)
-    print(f"Bắt đầu dịch {total} mục. Đang xử lý né lỗi 'I cannot...'")
+    print(f"Bắt đầu dịch {total} mục.'")
 
     for i, item in enumerate(all_items):
         original_text = item.text.strip()
