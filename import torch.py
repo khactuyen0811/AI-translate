@@ -9,7 +9,7 @@ from google.colab import files
 # ==========================================
 # 1. CẤU HÌNH
 # ==========================================
-HF_TOKEN = "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"
+HF_TOKEN = "nhập token trên hugging face"
 MODEL_ID = "google/gemma-2b-it"
 INPUT_WORD = "WSC2024_TP39_MC_actual_en.docx" 
 OUTPUT_WORD = "Ban_Dich_Final_Sieu_Sach.docx"
