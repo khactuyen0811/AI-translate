@@ -11,8 +11,9 @@ from google.colab import files
 # ==========================================
 HF_TOKEN = "nhập token trên hugging face"
 MODEL_ID = "google/gemma-2b-it"
+# nhập tên file input và output
 INPUT_WORD = "WSC2024_TP39_MC_actual_en.docx" 
-OUTPUT_WORD = "Ban_Dich_Final_Sieu_Sach.docx"
+OUTPUT_WORD = "Ban_Dich_test.docx"
 
 def clean_ai_output(text, original):
     """Lọc bỏ lỗi từ chối dịch và xóa câu nói leo"""
